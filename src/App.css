@@ -1,5 +1,11 @@
-.navbar-container {
+.banner-container {
   display: flex;
   justify-content: center;
-  background-color: green;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  margin-top: 3%;
 }

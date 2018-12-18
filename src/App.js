@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./components/navbar";
+import Banner from "./components/banner";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        <Banner />
       </React.Fragment>
     );
   }

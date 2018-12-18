@@ -1,7 +1,30 @@
+body {
+  background-color: #fafafa;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.center-align {
+  text-align: center;
+}
+
 .banner-container {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 100vh;
+  background-image: url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+@media (max-width: 700px) {
+  .banner-container {
+    background-size: contain;
+  }
 }
 
 .logo {
@@ -14,4 +37,8 @@
 .banner {
   width: 100%;
   height: auto !important;
+}
+
+.about-section {
+  padding: 0 5%;
 }

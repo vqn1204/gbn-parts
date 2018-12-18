@@ -6,12 +6,12 @@
 
 .logo {
   width: 40%;
-  height: auto;
+  height: auto !important;
   position: absolute;
   margin-top: 3%;
 }
 
 .banner {
   width: 100%;
-  height: auto;
+  height: auto !important;
 }

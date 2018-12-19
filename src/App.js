@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import "./App.css";
 import Banner from "./components/banner";
-import About from "./components/about";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import ProductList from "./components/productList";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Banner />
-        <About />
+        <Header title="Q50" />
+        <ProductList />
+        <Footer />
       </React.Fragment>
     );
   }

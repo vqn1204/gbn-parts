@@ -2,6 +2,10 @@ body {
   background-color: #fafafa;
 }
 
+img {
+  max-width: 100%;
+}
+
 h2 {
   font-size: 40px;
 }
@@ -42,4 +46,32 @@ h2 {
 
 .about-section {
   padding: 0 5%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  margin: 0 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  border-top: 1px solid black;
+}
+
+.copyright-text {
+  font-size: 14px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container {
+  flex: 0 1 calc(25% - 40px);
+  margin: 40px 20px;
 }

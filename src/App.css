@@ -75,3 +75,15 @@ h2 {
   flex: 0 1 calc(25% - 40px);
   margin: 40px 20px;
 }
+
+@media (max-width: 750px) {
+  .product-container {
+    flex: 0 1 calc(33% - 40px);
+  }
+}
+
+@media (max-width: 500px) {
+  .product-container {
+    flex: 0 1 100%;
+  }
+}

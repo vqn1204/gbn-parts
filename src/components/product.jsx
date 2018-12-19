@@ -5,6 +5,7 @@ class Product extends Component {
     return (
       <div className="product-container">
         <img src={this.props.image} alt="" />
+        <p>{this.props.description}</p>
       </div>
     );
   }
